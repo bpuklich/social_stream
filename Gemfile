@@ -14,4 +14,8 @@ end
 
 # gem 'social2social', :path => '../social2social'
 
+group :test do
+  gem 'resque', :require => 'resque/server', :git => 'git://github.com/defunkt/resque.git'
+end
+
 gemspec

@@ -2,7 +2,7 @@ class AddScheduler < ActiveRecord::Migration
 
   class EventSchedulerMigration < ActiveRecord::Base
     self.record_timestamps = false
-    set_table_name "events"
+    self.table_name = "events"
   end
 
   def up

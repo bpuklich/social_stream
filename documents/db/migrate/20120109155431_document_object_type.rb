@@ -1,7 +1,7 @@
 class DocumentObjectType < ActiveRecord::Migration
   class ActivityObjectMigration < ActiveRecord::Base
     self.record_timestamps = false
-    set_table_name "activity_objects"
+    self.table_name = "activity_objects"
   end
 
   def up

@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   # SQL foreign keys
   s.add_runtime_dependency('foreigner', '~> 1.1.1')
   # Authentication
-  s.add_runtime_dependency('devise', '~> 1.5.3')
+  s.add_runtime_dependency('devise', '~> 2.0.3')
   # CRUD controllers
   s.add_runtime_dependency('inherited_resources', '~> 1.3.0')
   # Slug generation
@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
   # Simple navigation for menu
   s.add_runtime_dependency('simple-navigation', '~> 3.5.1')
   # Background jobs
-  s.add_runtime_dependency('resque','~> 1.19.0')
+  s.add_runtime_dependency('resque','~> 1.20.0')
   # Modernizr.js javascript library
   s.add_runtime_dependency('modernizr-rails', '~> 2.0.6')
   # Sphinx search engine
